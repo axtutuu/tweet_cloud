@@ -43,7 +43,7 @@ function draw(words) {
 var words = [];
 $.ajax({
   type:     'GET',
-  url:      "http://localhost:3001/data/tweets.json",
+  url:      "/data/tweets.json",
   success: (data) => {
     console.log("success");
     data.forEach(function(data, index, array) {
