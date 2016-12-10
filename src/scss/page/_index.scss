@@ -1,0 +1,34 @@
+.container {
+    position: relative;
+    background-color: #fff;
+    font-family: Futura, YuGothic, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    user-select: none;
+    font-size: 150px;
+    line-height: 100vh;
+}
+
+.countdown {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 200px;
+}
+
+.loading {
+    animation: chikachika 1s infinite;
+
+    &.sugoi-animation {
+        position: absolute;
+        top: 0;
+        white-space: nowrap;
+        font-size: 80px;
+        animation: slide 3s infinite;
+    }
+}
+
+.answer {
+    font-size: 200px;
+}

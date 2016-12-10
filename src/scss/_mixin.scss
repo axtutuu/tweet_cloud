@@ -1,0 +1,17 @@
+@keyframes chikachika {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slide {
+    from {
+        transform: translate(100vw);
+    }
+    to {
+        transform: translate(-100%);
+    }
+}
